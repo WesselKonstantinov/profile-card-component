@@ -98,17 +98,17 @@ body {
   align-items: center;
 }
 
+/*
+*   Profile card styles
+*/
+
 .profile {
-  outline: 1px solid red; /* temporary */
+  box-shadow: 0 2rem 8rem rgb(0 0 0 / 0.2);
   width: 21.875rem;
   border-radius: 1rem;
   overflow: hidden;
   text-align: center;
 }
-
-/*
-*   Profile card styles
-*/
 
 .profile__decoration {
   background-image: url("images/bg-pattern-card.svg");
@@ -138,6 +138,8 @@ body {
 .profile__age {
   font-size: 1.125rem;
   color: var(--color-dark-gray);
+  margin-left: 0.3rem;
+  font-weight: 400;
 }
 
 .profile__city {
