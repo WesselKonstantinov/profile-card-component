@@ -98,7 +98,22 @@ body {
   align-items: center;
 }
 
+.profile {
+  outline: 1px solid red; /* temporary */
+  width: 21.875rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  text-align: center;
+}
+
 .profile__image {
-    border-radius: 50%;
-    border: 5px solid white;
+  border-radius: 50%;
+  border: 5px solid white;
+  display: inline-block;
+  margin-top: -3.25rem;
+}
+
+.profile__decoration {
+  background-image: url("images/bg-pattern-card.svg");
+  height: 8.75rem; /* Explicit height necessary to make background image appear  */
 }
