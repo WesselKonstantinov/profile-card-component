@@ -104,7 +104,8 @@ body {
 
 .profile {
   box-shadow: 0 2rem 8rem rgb(0 0 0 / 0.2);
-  width: 21.875rem;
+  width: 97vw;
+  max-width: 21.875rem;
   border-radius: 1rem;
   overflow: hidden;
   text-align: center;
