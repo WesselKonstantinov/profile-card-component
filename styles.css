@@ -124,23 +124,48 @@ body {
 }
 
 .profile__header {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-    margin-bottom: 0.3rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .profile__name {
-    font-size: 1.125rem;
-    color: var(--color-dark-blue);
+  font-size: 1.125rem;
+  color: var(--color-dark-blue);
 }
 
 .profile__age {
-    font-size: 1.125rem;
-    color: var(--color-dark-grayish-blue);
+  font-size: 1.125rem;
+  color: var(--color-dark-gray);
 }
 
 .profile__city {
-    font-size: 0.875rem;
-    color: var(--color-dark-grayish-blue);
+  font-size: 0.875rem;
+  color: var(--color-dark-gray);
+  margin-bottom: 1.5rem;
+}
+
+.stats {
+  margin: 0;
+  padding: 1.5rem;
+  list-style: none;
+  border-top: 1px solid #ededed;
+  display: flex;
+}
+
+.stats__item {
+  flex: 1;
+}
+
+.stats__key {
+  color: var(--color-dark-gray);
+  font-size: 0.6rem;
+  letter-spacing: 1.5px;
+}
+
+.stats__value {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-dark-blue);
 }
